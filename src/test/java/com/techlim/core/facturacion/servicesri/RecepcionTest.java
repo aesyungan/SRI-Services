@@ -29,6 +29,11 @@ public class RecepcionTest {
 
     @Test
     public void TestEnvioXML() {
+        //para capturar tramas 
+//        System.setProperty("http.proxyHost", "127.0.0.1");
+//        System.setProperty("https.proxyHost", "127.0.0.1");
+//        System.setProperty("http.proxyPort", "8888");
+//        System.setProperty("https.proxyPort", "8888");
         //prepare
         String expected = "{\"estado\":\"DEVUELTA\",\"comprobantes\":{\"comprobante\":[{\"claveAcceso\":\"3110201901099000573700120010011183877400105361110\",\"mensajes\":{\"mensaje\":[{\"identificador\":\"65\",\"mensaje\":\"FECHA EMISIÓN EXTEMPORANEA\",\"informacionAdicional\":\"La fecha de emisión está fuera del rango de tolerancia [43201 minutos], o es mayor a la fecha del servidor\",\"tipo\":\"ERROR\"}]}}]}}";
         try {
