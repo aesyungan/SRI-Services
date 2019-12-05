@@ -1,6 +1,7 @@
 package com.techlim.core.facturacion.servicesri.ws.autorizacion;
 
 import com.techlim.core.facturacion.servicesri.util.ArchivoUtils;
+import com.techlim.core.facturacion.servicesri.util.enums.TipoEmisionEnum;
 import com.thoughtworks.xstream.XStream;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -20,9 +21,6 @@ import javax.xml.namespace.QName;
 public class AutorizacionComprobantesWs {
 
     private AutorizacionComprobantesOfflineService service;
-    public static final String ESTADO_AUTORIZADO = "AUTORIZADO";
-    public static final String ESTADO_EN_PROCESO = "EN PROCESO";
-    public static final String ESTADO_NO_AUTORIZADO = "NO AUTORIZADO";
 
     /*     */
     public AutorizacionComprobantesWs(String wsdlLocation) throws Exception {
@@ -72,14 +70,15 @@ public class AutorizacionComprobantesWs {
         return mensaje.toString();
     }
 
-    public static boolean verificarOCSP(Autorizacion autorizacion)
+    public static TipoEmisionEnum verificarOCSP(Autorizacion autorizacion)
             throws SQLException, ClassNotFoundException {
         boolean respuesta = true;
-
+        TipoEmisionEnum tipoEmisionEnum = TipoEmisionEnum.NORMAL;
         for (Mensaje m : autorizacion.getMensajes().getMensaje()) {
             if (m.getIdentificador().equals("61")) {
                 System.out.println("No se puede validar el certificado digital.\n Desea emitir en contingencia?");
-                int i = JOptionPane.showConfirmDialog(null, "No se puede validar el certificado digital.\n Desea emitir en contingencia?", "Advertencia", 0);
+                tipoEmisionEnum = TipoEmisionEnum.PREAUTORIZADA;
+                //int i = JOptionPane.showConfirmDialog(null, "No se puede validar el certificado digital.\n Desea emitir en contingencia?", "Advertencia", 0);
 //                if (i == 0) {
 //                    Emisor emisor = new EmisorSQL().obtenerDatosEmisor();
 //                    FormGenerales.actualizaEmisor(TipoEmisionEnum.PREAUTORIZADA.getCode(), emisor);
@@ -87,6 +86,6 @@ public class AutorizacionComprobantesWs {
                 respuesta = false;
             }
         }
-        return respuesta;
+        return tipoEmisionEnum;
     }
 }

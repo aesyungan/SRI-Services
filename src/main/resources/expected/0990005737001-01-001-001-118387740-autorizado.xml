@@ -1,0 +1,174 @@
+<factura id="comprobante" version="1.1.0">
+  <infoTributaria>
+    <ambiente>1</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>BANCO DEL PACIFICO S.A</razonSocial>
+    <nombreComercial>BANCO DEL PACIFICO</nombreComercial>
+    <ruc>0990005737001</ruc>
+    <claveAcceso>3110201901099000573700120010011183877400105361110</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>001</ptoEmi>
+    <secuencial>118387740</secuencial>
+    <dirMatriz>FRANCISCO DE PAULA ICAZA # 200 Y PICHINCHA</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>31/10/2019</fechaEmision>
+    <dirEstablecimiento>FRANCISCO DE PAULA ICAZA # 200 Y PICHINCHA</dirEstablecimiento>
+    <contribuyenteEspecial>6925</contribuyenteEspecial>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+    <razonSocialComprador>YUNGAN GUALLI ALEX FABIAN</razonSocialComprador>
+    <identificacionComprador>0604950725</identificacionComprador>
+    <direccionComprador>ROMA NO.  Y VIENA MZ:4 C:39        </direccionComprador>
+    <totalSinImpuestos>2.16</totalSinImpuestos>
+    <totalDescuento>0</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>2</codigoPorcentaje>
+        <baseImponible>2.16</baseImponible>
+        <valor>0.24</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0</propina>
+    <importeTotal>2.40</importeTotal>
+    <moneda>DOLARES</moneda>
+    <pagos>
+      <pago>
+        <formaPago>20</formaPago>
+        <total>2.4</total>
+        <plazo>0</plazo>
+        <unidadTiempo>DIAS</unidadTiempo>
+      </pago>
+    </pagos>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>1</codigoPrincipal>
+      <codigoAuxiliar>0756</codigoAuxiliar>
+      <descripcion>COM. RETIRO CAJERO AUTOM CLIENTES DE LA PROPIA ENTIDAD EN CAJERO DE OTRA ENTIDAD</descripcion>
+      <cantidad>4</cantidad>
+      <precioUnitario>0.45</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>1.80</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>2</codigoPorcentaje>
+          <tarifa>12</tarifa>
+          <baseImponible>1.80</baseImponible>
+          <valor>0.20</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>2</codigoPrincipal>
+      <codigoAuxiliar>0801</codigoAuxiliar>
+      <descripcion>COM. TRANSFERENCIAS INTERBANCARIAS SPI ENVIADAS (INTERNET Y BANCA CELULAR)</descripcion>
+      <cantidad>1</cantidad>
+      <precioUnitario>0.36</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>0.36</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>2</codigoPorcentaje>
+          <tarifa>12</tarifa>
+          <baseImponible>0.36</baseImponible>
+          <valor>0.04</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature726928">
+<ds:SignedInfo Id="Signature-SignedInfo216576">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID739466" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature726928-SignedProperties228549">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>t1EECS5QeR+wkqkNgvZpInPbOMU=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate180249">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>FW9lFRKdUglNLLR8gSqhNhZsS4E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-487298" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>1xuy/8s76dhIs8uVHGFSGCbMhtg=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue236706">
+SlG1WnE9Y6aXO5BX7ylD+06AAg6VLVNIyj/wnm8XUUEk4sI06H61Po8gOWG3EaphOZ9jahvL5jC4
+1UqIUrQXaSk1U7CseO+6S62HhE3CPm1hS3eAIX1VpitKDR+t7aCLEP7APjytsN3ZyTW96ZaxHjV2
+WHRw6etVR+F/S6ph/0pgPbK384cpKFDWRt7qapHfRcwEE0a23OGuAWLc25VSuTXK51ccQQ0sWPS8
+a+Pf+jijdusCcXKf4Jz2HUXLfPMI8UZdCvtgLYqHoU4j2t0pww7P42m1v9BXMHgTnyC/upszc6k8
+HCWPtm7xMwDN1jYIq+mnychLsxQ9SykiYyEJzg==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate180249">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJ5zCCB8+gAwIBAgIEWls1TjANBgkqhkiG9w0BAQsFADCBoTELMAkGA1UEBhMCRUMxIjAgBgNV
+BAoTGUJBTkNPIENFTlRSQUwgREVMIEVDVUFET1IxNzA1BgNVBAsTLkVOVElEQUQgREUgQ0VSVElG
+SUNBQ0lPTiBERSBJTkZPUk1BQ0lPTi1FQ0lCQ0UxDjAMBgNVBAcTBVFVSVRPMSUwIwYDVQQDExxB
+QyBCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMB4XDTE4MDIyODE3MDMxMloXDTIwMDIyODE3MzMx
+MlowgbUxCzAJBgNVBAYTAkVDMSIwIAYDVQQKExlCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMTcw
+NQYDVQQLEy5FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04tRUNJQkNFMQ4w
+DAYDVQQHEwVRVUlUTzE5MBEGA1UEBRMKMDAwMDI2NTIyMjAkBgNVBAMTHVdBTFRFUiBGRVJOQU5E
+TyBCQU5DSE9OIE1VTk9aMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzAWhkstMDcdu
+hp/xMV3k0F1KXzbeBcykOxn/HIbyQ/Zb3Ig+83dVoV5chykY5wIBzjn6n3j/uaIxb3T6xPiyDBSR
+O+SvNebs6kYZSUXbzN29pMEBjCYTNN0x6+uB+Rha6vnEdMSm/CUo5UQ62fTGrpty+juKmt/MOQxU
+MItboNwZdkfXcWXsUfo7fckrf6k/1MpJoNHDwpjzxQEbngZPj5A6dtxemrqiQAwvqIkX3xl7XT3k
+nR//1fDwBNJ8LvPaLRj9YbvDF+LBD1PUCagNhD+P93WRZ6ZFGzHPLjLUcAs5cCnDLghZ1guOafyr
+hQ6t0iEyg1cEf0dCExBgvr14wwIDAQABo4IFDzCCBQswCwYDVR0PBAQDAgeAMGcGA1UdIARgMF4w
+XAYLKwYBBAGCqDsCAgEwTTBLBggrBgEFBQcCARY/aHR0cDovL3d3dy5lY2kuYmNlLmVjL3BvbGl0
+aWNhLWNlcnRpZmljYWRvL3BlcnNvbmEtanVyaWRpY2EucGRmMIGRBggrBgEFBQcBAQSBhDCBgTA+
+BggrBgEFBQcwAYYyaHR0cDovL29jc3AuZWNpLmJjZS5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVz
+L29jc3AwPwYIKwYBBQUHMAGGM2h0dHA6Ly9vY3NwMS5lY2kuYmNlLmVjL2VqYmNhL3B1YmxpY3dl
+Yi9zdGF0dXMvb2NzcDAlBgorBgEEAYKoOwMKBBcTFUJBTkNPIERFTCBQQUNJRklDTyBTQTAdBgor
+BgEEAYKoOwMLBA8TDTA5OTAwMDU3MzcwMDEwGgYKKwYBBAGCqDsDAQQMEwowOTA3ODg3NTc0MB8G
+CisGAQQBgqg7AwIEERMPV0FMVEVSIEZFUk5BTkRPMBcGCisGAQQBgqg7AwMECRMHQkFOQ0hPTjAV
+BgorBgEEAYKoOwMEBAcTBU1VTk9aMBcGCisGAQQBgqg7AwUECRMHSkVGRSBJSTAnBgorBgEEAYKo
+OwMHBBkTF1AgSUNBWkEgMjAwIFkgUElDSElOQ0hBMBkGCisGAQQBgqg7AwgECxMJMDQzNzMxNTAw
+MBkGCisGAQQBgqg7AwkECxMJR3VheWFxdWlsMBcGCisGAQQBgqg7AwwECRMHRUNVQURPUjAgBgor
+BgEEAYKoOwMzBBITEFNPRlRXQVJFLUFSQ0hJVk8wIwYDVR0RBBwwGoEYd2JhbmNob25AcGFjaWZp
+Y28uZmluLmVjMIIB3wYDVR0fBIIB1jCCAdIwggHOoIIByqCCAcaGgdVsZGFwOi8vYmNlcWxkYXBz
+dWJwMS5iY2UuZWMvY249Q1JMNTI3LGNuPUFDJTIwQkFOQ08lMjBDRU5UUkFMJTIwREVMJTIwRUNV
+QURPUixsPVFVSVRPLG91PUVOVElEQUQlMjBERSUyMENFUlRJRklDQUNJT04lMjBERSUyMElORk9S
+TUFDSU9OLUVDSUJDRSxvPUJBTkNPJTIwQ0VOVFJBTCUyMERFTCUyMEVDVUFET1IsYz1FQz9jZXJ0
+aWZpY2F0ZVJldm9jYXRpb25MaXN0P2Jhc2WGNGh0dHA6Ly93d3cuZWNpLmJjZS5lYy9DUkwvZWNp
+X2JjZV9lY19jcmxmaWxlY29tYi5jcmykgbUwgbIxCzAJBgNVBAYTAkVDMSIwIAYDVQQKExlCQU5D
+TyBDRU5UUkFMIERFTCBFQ1VBRE9SMTcwNQYDVQQLEy5FTlRJREFEIERFIENFUlRJRklDQUNJT04g
+REUgSU5GT1JNQUNJT04tRUNJQkNFMQ4wDAYDVQQHEwVRVUlUTzElMCMGA1UEAxMcQUMgQkFOQ08g
+Q0VOVFJBTCBERUwgRUNVQURPUjEPMA0GA1UEAxMGQ1JMNTI3MCsGA1UdEAQkMCKADzIwMTgwMjI4
+MTcwMzEyWoEPMjAyMDAyMjgxNzMzMTJaMB8GA1UdIwQYMBaAFBj58PvmMhyZZjkqyouyaX1JJ7/O
+MB0GA1UdDgQWBBRFwU8q7DIygvfyIuU3RuTfuTiAtzAJBgNVHRMEAjAAMBkGCSqGSIb2fQdBAAQM
+MAobBFY4LjEDAgSwMA0GCSqGSIb3DQEBCwUAA4ICAQAFdILoBpN192rofJ2kW1ad7Zywsh7DXmaF
+2prrqIxGc/xQaDPKPO+G01UX4R2AIqW3nDfpXAFhv6QJyJ0IxArWtGshmtkzj8/KghQ86Xq8Xaq/
+wC6WNhXOuWNOI2R4K6AJG13HthRF12Timjx8fDe3gDoI8xABZBnBV6pPWLvCKu6HtfXL+0HD5kab
+ut0XtOGapJUzonS3mF+0kwCWEmDSTD78uHNXqg1aWCKrlKcvi8o5SufnZ2UvuNMGKBEWXs7ssZXG
+s50QxUL8lrzkeGBhaeGQ3t11eLqYxFnV1Ukq9i/KBR/LnGI6+7u8LHb5CpZfASZ2WFCZwVAynjEo
+x1oXsnbEY/VLAhZ3UZP72JTZf/ogU7VX8f1VbQ+eHvC7kdn45efM7YvgK8nI8+1fYCPhtPym51EN
+29MA/bYknjg19jSSPZJfzdVyktoTI06HdHe8K/VJeNHUirx891SnxwyPW43ycQGtx/vSeEmlH+uA
+wRgeqM6qiAzoZVby3oQIKHINR8a2065Dxe3nln2fIzA31E8Kqgg/ZPc0V54E9/7fZ5SZXEXi7h8X
+XIU2wHziYokBLYB+DCGZSn3MonnFhYigj26VNqudwHyYEvrD0MPLKoj6Oyr+511bic8Y1RvMr1IX
+LdeHRudoSqjDTBhv7iTmROL1Jyvh3zpxkKnaOPcIrA==
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+zAWhkstMDcduhp/xMV3k0F1KXzbeBcykOxn/HIbyQ/Zb3Ig+83dVoV5chykY5wIBzjn6n3j/uaIx
+b3T6xPiyDBSRO+SvNebs6kYZSUXbzN29pMEBjCYTNN0x6+uB+Rha6vnEdMSm/CUo5UQ62fTGrpty
++juKmt/MOQxUMItboNwZdkfXcWXsUfo7fckrf6k/1MpJoNHDwpjzxQEbngZPj5A6dtxemrqiQAwv
+qIkX3xl7XT3knR//1fDwBNJ8LvPaLRj9YbvDF+LBD1PUCagNhD+P93WRZ6ZFGzHPLjLUcAs5cCnD
+LghZ1guOafyrhQ6t0iEyg1cEf0dCExBgvr14ww==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature726928-Object767051"><etsi:QualifyingProperties Target="#Signature726928"><etsi:SignedProperties Id="Signature726928-SignedProperties228549"><etsi:SignedSignatureProperties><etsi:SigningTime>2019-11-02T10:35:28-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>xymHV9mGlpdKtXb138V4Jzzc7KQ=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AC BANCO CENTRAL DEL ECUADOR,L=QUITO,OU=ENTIDAD DE CERTIFICACION DE INFORMACION-ECIBCE,O=BANCO CENTRAL DEL ECUADOR,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1515926862</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-487298"><etsi:Description>comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

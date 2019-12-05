@@ -1,6 +1,7 @@
 package com.techlim.core.facturacion.servicesri.ws.comprobante;
 
 import com.techlim.core.facturacion.servicesri.util.ArchivoUtils;
+import com.techlim.core.facturacion.servicesri.util.enums.EstadoComprobanteEnum;
 import com.techlim.core.facturacion.servicesri.ws.comprobante.Comprobante;
 import com.techlim.core.facturacion.servicesri.ws.comprobante.Mensaje;
 import com.techlim.core.facturacion.servicesri.ws.comprobante.RecepcionComprobantesOffline;
@@ -18,8 +19,6 @@ public class EnvioComprobantesWs {
 
     private static RecepcionComprobantesOfflineService service;
     private static final String VERSION = "1.0.0";
-    public static final String ESTADO_RECIBIDA = "RECIBIDA";
-    public static final String ESTADO_DEVUELTA = "DEVUELTA";
 
     public EnvioComprobantesWs(String wsdlLocation)
             throws MalformedURLException, WebServiceException {
@@ -113,14 +112,14 @@ public class EnvioComprobantesWs {
             respuesta.setEstado(ex.getMessage());
             return respuesta;
         }
-        respuesta = cliente.enviarComprobante(ruc, archivo, tipoComprobante, "1.0.0");
+        respuesta = cliente.enviarComprobante(ruc, archivo, tipoComprobante, VERSION);
 
         return respuesta;
     }
 
     public static String obtenerMensajeRespuesta(RespuestaSolicitud respuesta) {
         StringBuilder mensajeDesplegable = new StringBuilder();
-        if (respuesta.getEstado().equals("DEVUELTA") == true) {
+        if (respuesta.getEstado().equals(EstadoComprobanteEnum.ESTADO_DEVUELTA.getState()) == true) {
             RespuestaSolicitud.Comprobantes comprobantes = respuesta.getComprobantes();
             for (Comprobante comp : comprobantes.getComprobante()) {
                 mensajeDesplegable.append(comp.getClaveAcceso());
