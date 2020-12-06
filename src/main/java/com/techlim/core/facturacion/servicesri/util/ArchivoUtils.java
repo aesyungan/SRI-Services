@@ -1,45 +1,19 @@
 package com.techlim.core.facturacion.servicesri.util;
 
-import com.techlim.core.facturacion.servicesri.util.xml.LectorXPath;
-import com.techlim.core.facturacion.servicesri.util.xml.XStreamUtil;
-import com.techlim.core.facturacion.servicesri.ws.autorizacion.Autorizacion;
-import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
-import java.io.PrintStream;
-import java.io.Reader;
-import java.nio.charset.Charset;
 import java.nio.file.Files;
-import java.sql.SQLException;
-import java.util.logging.Level;
-import javax.swing.JFrame;
-import javax.swing.JOptionPane;
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerException;
-import javax.xml.transform.TransformerFactory;
-import javax.xml.transform.dom.DOMSource;
-import javax.xml.transform.stream.StreamResult;
-import javax.xml.xpath.XPath;
+
 import javax.xml.xpath.XPathConstants;
-import javax.xml.xpath.XPathExpression;
-import javax.xml.xpath.XPathExpressionException;
-import javax.xml.xpath.XPathFactory;
-import org.w3c.dom.Document;
-import org.w3c.dom.Node;
-import org.xml.sax.SAXException;
+
+import com.techlim.core.facturacion.servicesri.autorizacion.Autorizacion;
+import com.techlim.core.facturacion.servicesri.util.xml.LectorXPath;
+import com.techlim.core.facturacion.servicesri.util.xml.XStreamUtil;
 
 public class ArchivoUtils {
 
@@ -99,7 +73,7 @@ public class ArchivoUtils {
     public static String obtieneClaveAccesoAutorizacion(Autorizacion item) throws Exception {
         String claveAcceso = null;
 
-        String xmlAutorizacion = XStreamUtil.getRespuestaLoteXStream().toXML(item);
+        String xmlAutorizacion = "";//XStreamUtil.getRespuestaLoteXStream().toXML(item);
         File archivoTemporal = new File("temp.xml");
 
         stringToArchivo(archivoTemporal.getPath(), xmlAutorizacion);

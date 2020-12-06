@@ -14,6 +14,6 @@ That way multiple projects can share the same settings (useful for formatting ru
 Any value defined here will override the pom.xml file value but is only applicable to the current project.
 -->
         <org-netbeans-modules-maven-jaxws._5f_C_5f_RecepcionComprobantes>file:/C:/Users/Alex/Documents/NetBeansProjects/AppPrueba1/ServiceSRI/src/main/resources/wsdl/RecepcionComprobantes.wsdl</org-netbeans-modules-maven-jaxws._5f_C_5f_RecepcionComprobantes>
-        <org-netbeans-modules-maven-jaxws._5f_C_5f_AutorizacionComprobantes>file:/C:/Users/Alex/Documents/NetBeansProjects/AppPrueba1/ServiceSRI/src/main/resources/wsdl/AutorizacionComprobantes.wsdl</org-netbeans-modules-maven-jaxws._5f_C_5f_AutorizacionComprobantes>
+        <org-netbeans-modules-maven-jaxws._5f_C_5f_AutorizacionComprobantes>file:/C:/Users/yunga/Documents/AutorizacionComprobantes.wsdl</org-netbeans-modules-maven-jaxws._5f_C_5f_AutorizacionComprobantes>
     </properties>
 </project-shared-configuration>
