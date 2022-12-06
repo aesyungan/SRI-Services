@@ -24,6 +24,7 @@ public class AutorizacionComprobantesWs {
     /*     */
     public AutorizacionComprobantesWs(String wsdlLocation) throws Exception {
         try {
+        	System.setProperty("https.protocols", "SSLv3");
             AutorizacionComprobantesOfflineServiceLocator ser = new AutorizacionComprobantesOfflineServiceLocator();
             service = new AutorizacionComprobantesOfflineServiceSoapBindingStub(new URL(wsdlLocation), ser);
         } catch (Exception ex) {

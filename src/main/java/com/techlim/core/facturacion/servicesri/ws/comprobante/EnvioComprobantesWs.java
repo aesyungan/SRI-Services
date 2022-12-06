@@ -21,6 +21,7 @@ public class EnvioComprobantesWs {
     public EnvioComprobantesWs(String wsdlLocation) throws MalformedURLException, Exception {
         /*javax.xml.namespace.QName qname = new QName("http://ec.gob.sri.ws.recepcion",
                 "RecepcionComprobantesOfflineService");*/
+    	System.setProperty("https.protocols", "SSLv3");
         RecepcionComprobantesOfflineService ser = new RecepcionComprobantesOfflineServiceLocator();
        service = new com.techlim.core.facturacion.servicesri.recepcion.RecepcionComprobantesOfflineServiceSoapBindingStub(new URL(wsdlLocation), ser);
     }
