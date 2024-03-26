@@ -1,0 +1,14 @@
+
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(å¸þéüÿÿÿÿ8¿÷ë×ç1
+z
+java:S2139"XEither log this exception and handle it, or rethrow it with some contextual information.(±Ÿ—±ÿÿÿÿÿ8Ù÷ë×ç1
+Z
+java:S18545"=Remove this useless assignment to local variable "respuesta".(¤ŠèÒ8Û÷ë×ç1
+‹
+java:S1130("nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(Þ±²Ù8Û÷ë×ç1
+–
+java:S1130("yRemove the declaration of thrown exception 'java.lang.ClassNotFoundException', as it cannot be thrown from method's body.(Þ±²Ù8Û÷ë×ç1
+K
+java:S1481)".Remove this unused "respuesta" local variable.(ðæ›Ë8Û÷ë×ç1
+G	java:S106-"+Replace this use of System.out by a logger.(›Ä¢Ø8Û÷ë×ç1
+]	java:S1250"<This block of commented-out lines of code should be removed.(ÄðŸ®þÿÿÿÿ8Ü÷ë×ç1

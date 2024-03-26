@@ -1,0 +1,100 @@
+
+E
+java:S3740"/Provide the parametrized type for this generic.(Û‡÷—
+E
+java:S3740"/Provide the parametrized type for this generic.(Û‡÷—
+E
+java:S3740"/Provide the parametrized type for this generic.(Íîåš
+E
+java:S3740"/Provide the parametrized type for this generic.(Íîåš
+J
+java:S3740"/Provide the parametrized type for this generic.(¸Æ§ùÿÿÿÿ
+J
+java:S3740"/Provide the parametrized type for this generic.(¸Æ§ùÿÿÿÿ
+E
+java:S3740"/Provide the parametrized type for this generic.(õ³ˆÖ
+E
+java:S3740"/Provide the parametrized type for this generic.(õ³ˆÖ
+D
+java:S3740D"/Provide the parametrized type for this generic.(½öÊD
+J
+java:S3740G"/Provide the parametrized type for this generic.(×íí¨üÿÿÿÿ
+E
+java:S3740H"/Provide the parametrized type for this generic.(Í´ò‹
+E
+java:S3740I"/Provide the parametrized type for this generic.(››‹‰
+J
+java:S3740J"/Provide the parametrized type for this generic.(æ³Æşÿÿÿÿ
+E
+java:S3740K"/Provide the parametrized type for this generic.(ÜôÜÔ
+J
+java:S3740L"/Provide the parametrized type for this generic.(¼İºüÿÿÿÿ
+J
+java:S3740M"/Provide the parametrized type for this generic.(ÍçÌûÿÿÿÿ
+E
+java:S3740N"/Provide the parametrized type for this generic.(Š¦Î­
+J
+java:S3740O"/Provide the parametrized type for this generic.(˜àÓİıÿÿÿÿ
+E
+java:S3740P"/Provide the parametrized type for this generic.(¤³Ã
+K
+java:S3740Ÿ"/Provide the parametrized type for this generic.(­¢­Äıÿÿÿÿ
+K
+java:S3740®"/Provide the parametrized type for this generic.(ªÖßıÿÿÿÿ
+L
+java:S3740³"/Provide the parametrized type for this generic.(¯”÷8¤ã‘Öç1
+R
+java:S3740µ"/Provide the parametrized type for this generic.(Ç™ïÎÿÿÿÿÿ8¤ã‘Öç1
+j
+java:S1192^"MDefine a constant instead of duplicating this literal "autorizacion" 5 times.(¼Õ‘8¨ã‘Öç1
+€
+java:S1192"cDefine a constant instead of duplicating this literal "http://ec.gob.sri.ws.autorizacion" 14 times.(ŒßŒô8ªã‘Öç1
+j
+java:S1192U"HDefine a constant instead of duplicating this literal "mensaje" 3 times.(¬è·üÿÿÿÿ8ªã‘Öç1
+X
+java:S1141á"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8Ãã‘Öç1
+X
+java:S1141ƒ"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8Ãã‘Öç1
+s	java:S117Œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã×“Áúÿÿÿÿ8áã‘Öç1
+n	java:S117Å"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òó î8áã‘Öç1
+s	java:S117Î"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿöá¢üÿÿÿÿ8èã‘Öç1
+s	java:S117Ú"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­ğışÿÿÿÿ8èã‘Öç1
+s	java:S117ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë‚Öûÿÿÿÿ8éã‘Öç1
+s	java:S117ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿöá¢üÿÿÿÿ8éã‘Öç1
+n	java:S117ü"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş˜±¾8ñã‘Öç1
+s	java:S117…"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë‚Öûÿÿÿÿ8÷ã‘Öç1
+x
+java:S3008"VRename this field "_operations" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆß–ÿÿÿÿÿ8ë‘Öç1
+‚
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(Û‡÷—8‘ë‘Öç1
+‚
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(Íîåš8’ë‘Öç1
+‡
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(¸Æ§ùÿÿÿÿ8’ë‘Öç1
+‚
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(õ³ˆÖ8’ë‘Öç1
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥Í½ß8¡ë‘Öç1
+“
+java:S1130="wRemove the declaration of thrown exception 'org.apache.axis.AxisFault', as it cannot be thrown from constructor's body.(‚ú08µë‘Öç1
+H
+java:S1481I"+Remove this unused "enumsf" local variable.(››‹‰8»ë‘Öç1
+M
+java:S1481J"+Remove this unused "enumdf" local variable.(æ³Æşÿÿÿÿ8½ë‘Öç1
+I
+java:S1481K",Remove this unused "arraysf" local variable.(ÜôÜÔ8¾ë‘Öç1
+N
+java:S1481L",Remove this unused "arraydf" local variable.(¼İºüÿÿÿÿ8¿ë‘Öç1
+O
+java:S1481M"-Remove this unused "simplesf" local variable.(ÍçÌûÿÿÿÿ8¿ë‘Öç1
+J
+java:S1481N"-Remove this unused "simpledf" local variable.(Š¦Î­8¿ë‘Öç1
+S
+java:S1481O"1Remove this unused "simplelistsf" local variable.(˜àÓİıÿÿÿÿ8¿ë‘Öç1
+N
+java:S1481P"1Remove this unused "simplelistdf" local variable.(¤³Ã8Àë‘Öç1
+C
+java:S1181Å"%Catch Exception instead of Throwable.(Òó î8Ïë‘Öç1
+z
+java:S2737è"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ø¥› ûÿÿÿÿ8óë‘Öç1
+z
+java:S2737Š"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ø¥› ûÿÿÿÿ8ûë‘Öç1
